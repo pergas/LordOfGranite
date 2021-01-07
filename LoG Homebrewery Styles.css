@@ -1,0 +1,72 @@
+<style>
+
+/* Background */
+  .phb { background-image: url("https://i.imgur.com/KCpYLrt.png")}
+  .phb { background-size: cover }
+
+/* standard text */
+  .phb {font-family: 'Libre Franklin', serif; font-size: 12px}
+  .phb h1+p::first-line {font-variant: small-caps; font-size:14px;}
+  .phb h1+p::first-letter {font-family:Pirata One; font-size: 150px;}
+  
+  .phb a {color: #7237b3;}
+  
+  .phb link { color: #FF0000; } 
+  
+/* Basic Notes */
+  .phb blockquote {	background-color: #FEFEFE;	
+	border-image: url(https://i.imgur.com/aiHcja5.png) 10;
+  	border-image-outset: 9px 0;
+	box-shadow: 1px 1px 5px #888;
+    font-family: 'Libre Franklin', serif;}
+  .phb blockquote p {font-size:12px;}
+  .phb blockquote li {font-size:12px;}
+  .phb hr+blockquote tr:nth-child(odd) td {background-color: #35ab07;}
+  
+/* descriptive notes */  
+  .phb .descriptive {
+	background-color: #f3dcfa;
+	border-image: url(https://i.imgur.com/toQiVf0.png) 12 round;
+	border-image-outset: 4px;
+	}
+    
+/* statblock changes */
+  .phb hr+blockquote {background-color: #FAFBFC; 
+    box-shadow: 0px 0px 1px 1px #9200bd24;
+	border-image: url(https://i.imgur.com/idNdPJm.png) 10}
+  .phb hr+blockquote tr:nth-child(odd) td {color:#FFFFEE; background-color: #7237B3;}
+  .phb hr+blockquote hr {background-image: url(https://i.imgur.com/98pjqkQ.png)}
+  .phb hr+blockquote hr+ul { color: #7237b3; 
+    font-family: 'Libre Franklin', serif; 
+    font-size:12px}
+  .phb hr+blockquote hr+ul strong {color: #7237b3;
+    font-family: 'Libre Franklin', serif; 
+    font-size: 12px}
+  .phb hr+blockquote em{ font-family: 'Libre Franklin', serif; font-size: 12px}
+
+/* fancy tables (e.g. class tables/item tables) */
+  .phb .classTable {
+  	border-image-source: url(https://i.imgur.com/t51ZUzm.png);
+  	background-color: #FBE0FF;
+  }
+ 
+/* Headings */
+  .phb h1 {color: #6e479c; font-family: 'Lustria', serif; font-size: 32px; font-variant: small-caps;}
+  .phb h2 {color: #6e479c; font-family: 'Lustria', serif; font-size: 24px; font-variant: small-caps;}
+  .phb h3 {color: #6e479c; border-bottom: 2px solid #7237B3; font-family: 'Lustria', serif; font-size: 18px; font-variant: small-caps; }
+  .phb h4 {color: #6e479c; font-family: 'Lustria', serif; font-size: 16px; font-variant: small-caps; }
+  .phb h5 {color: #6e479c; font-family: 'Lustria', san-serif; font-size: 14px;}
+  
+/* Tables */
+  table { font-family: 'Libre Franklin', serif; font-size: 12px}
+  table tr:nth-child(odd) td {color:white; background-color: #663799; font-weight: normal;}
+  .phb table em { font-family: 'Libre Franklin'; font-size: 12px}
+  td { font-family: 'Libre Franklin'; font-size: 12px}
+  th { font-family: 'Libre Franklin', serif; font-size: 12px}
+  
+/* Footer */
+  .phb .pageNumber {color: rgba(0, 0, 0, 1)}
+  .phb .footnote {color: rgba(0, 0, 0, 1)}
+  .phb:after{ bottom:0px; height:60px; 
+              background-image: url("https://i.imgur.com/qpEiR0A.png") } 
+</style>
