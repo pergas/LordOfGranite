@@ -65,7 +65,29 @@
   td { font-family: 'Libre Franklin'; font-size: 12px}
   th { font-family: 'Libre Franklin', serif; font-size: 12px}
   
-/* Footer */
+/* Footer 
   .phb .pageNumber {color: rgba(0, 0, 0, 1)}
   .phb .footnote {color: rgba(0, 0, 0, 1)}
-  .phb:after{ bottom:0px; height:60px; background-image: url("https://i.imgur.com/qpEiR0A.png") } 
+  .phb:after{ bottom:0px; height:60px; background-image: url("https://i.imgur.com/sKyGJHz.png") } */
+
+/* new footer */
+.phb .pageNumber {
+	font-family: Lustria;
+	font-size: 15px;
+	bottom: 7.5px;
+	color: #6e479c;
+	width: 44px;
+}
+
+.phb .footnote{
+  	font-family: Lustria;
+  	font-size:14px;
+  	color:#6e479c;
+  	width: 300px;
+  	right: 50px;
+  	bottom: 30px;
+}
+
+.phb:nth-child(even) .footnote{left:50px; bottom: 30px}
+.phb:after{ bottom:0px; height:60px; background-image: url("https://i.imgur.com/sKyGJHz.png") }
+
