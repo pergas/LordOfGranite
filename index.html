@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="LoG Homebrewery Styles.css">
-</head>
-<body>
+  <head>
+    <link rel="stylesheet" href="LoG Homebrewery Styles.css">
+  </head>
 
-<h1>This May Eventual Happen</h1>
-<p>This may turn into a site where you can get any homebrewed works by the Lord Of Granite for Dungeons and Dragons (5th Edition).</p>
-  
-  <p>You can Email him at <a href="Mailto:LordOfGranite@gmail.com">LordOfGranite@gmail.com</a> if for some reason you want to try and talk to him. He doesn't check it often at the moment so good luck. 
+  <script>
+  function process()
+  {
+    var url=" https://api.qrserver.com/v1/create-qr-code/?size=150x150&data==" + window.location.href;
+    document.getElementById('QRCode').src = url;
+  }
+  </script>
+  <body onload="process()">
+     <img src='' id='QRCode' ...>
 
-</body>
+    <h1>This May Eventual Happen</h1>
+    <p>This may turn into a site where you can get any homebrewed works by the Lord Of Granite for Dungeons and Dragons (5th Edition).</p>
+
+    <p>You can Email him at <a href="Mailto:LordOfGranite@gmail.com">LordOfGranite@gmail.com</a> if for some reason you want to try and talk to him. He doesn't check it often at the moment so good luck. 
+
+  </body>
 </html>
