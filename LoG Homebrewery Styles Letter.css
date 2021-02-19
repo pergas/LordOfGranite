@@ -27,6 +27,7 @@
 	font-family: 'Libre Franklin', serif; font-size: 12px;
 	}
   .phb .descriptive em {font-family: 'Libre Franklin', serif; font-size: 12px;}
+  .phb .descriptive strong {font-family: 'Libre Franklin', serif; font-size: 12px;} 
     
 /* statblock changes */
   .phb hr+blockquote {background-color: #FAFBFC; 
