@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <script src="scripts.js"></script>
+  </head>
+
+  <body onload=>
+
+  <img src='http://chart.googleapis.com/chart?chs=300x300&cht=qr&choe=UTF-8&chl=%7B%22SessionID%22%3A%22x1234%3A1234%22%2C%22agent%22%3A%22LordOfGranite%22%2C%22Request%22%3A%5B%22identity%22%2C%22email%22%5D%2C%22imageURL%22%3A%22https%3A%2F%2Fi.imgur.com%2FI25hSPf.png%22%7D' id='QRCode'>
+  
+  <script>
+  document.getElementById("UUIDdisplay").innerHTML = create_UUID();
+  </script>
+  
+  <p id="UUIDdisplay"></p>
+  </body>
+</html>
