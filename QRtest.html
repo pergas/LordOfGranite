@@ -6,10 +6,9 @@
   </head>
 
   <body>
- 
-    <img src='http://chart.googleapis.com/chart?chs=300x300&cht=qr&choe=UTF-8&chl=%7B%22SessionID%22%3A%22x1234%3A1234%22%2C%22agent%22%3A%22LordOfGranite%22%2C%22Request%22%3A%5B%22identity%22%2C%22email%22%5D%2C%22imageURL%22%3A%22https%3A%2F%2Fi.imgur.com%2FI25hSPf.png%22%7D' id='QRCode'>
+    <img src='' id='QRCode'>
 
-    <p id="UUIDdisplay"></p>
+    <p>UUID:<span id="UUIDdisplay"></span></p>
 
     <script>
       var dt = new Date().getTime();
@@ -18,7 +17,8 @@
           dt = Math.floor(dt/16);
           return (c=='x' ? r :(r&0x3|0x8)).toString(16);
       });
-      document.getElementById("UUIDdisplay").innerHTML = "UUID: " + uuid;
+      document.getElementById("UUIDdisplay").innerHTML = uuid;
+	  document.getElementById("QRCode").src = "http://chart.googleapis.com/chart?chs=300x300&cht=qr&choe=UTF-8&chl=%7B%22SessionID%22%3A%22" + uuid + "%22%2C%22agent%22%3A%22LordOfGranite%22%2C%22Request%22%3A%5B%22identity%22%2C%22email%22%5D%2C%22imageURL%22%3A%22https%3A%2F%2Fi.imgur.com%2FI25hSPf.png%22%7D";
     </script>
     
   </body>
