@@ -1,5 +1,5 @@
 /* Background and A4 page size */
-  .phb { background-image: url("https://i.imgur.com/KCpYLrt.png")}
+  .phb { background-image: url("https://pergas.github.io/LordOfGranite/images/assests/Background - base .png")}
   .phb { background-size: cover }
   .phb { 
 	width : 210mm; 
@@ -15,7 +15,7 @@
   
 /* Basic Notes */
   .phb blockquote { background-color: #FEFEFE;	
-	border-image: url(https://i.imgur.com/aiHcja5.png) 10;
+	border-image: url(https://pergas.github.io/LordOfGranite/images/assests/note border.png) 10;
   	border-image-outset: 9px 0;
 	box-shadow: 1px 1px 5px #888;
         font-family: 'Libre Franklin', serif;}
@@ -26,7 +26,7 @@
 /* descriptive notes */  
   .phb .descriptive {
 	background-color: #f3dcfa;
-	border-image: url(https://i.imgur.com/toQiVf0.png) 12 round;
+	border-image: url(images/assests/Descriptive note sides.png) 12 round;
 	border-image-outset: 4px;
 	font-family: 'Libre Franklin', serif; font-size: 12px;
 	}
