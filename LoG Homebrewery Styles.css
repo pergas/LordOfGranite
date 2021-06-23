@@ -91,5 +91,5 @@
 }
 
 .phb:nth-child(even) .footnote{left:50px; bottom: 30px}
-.phb:after{ bottom:0px; height:60px; background-image: url("https://i.imgur.com/sKyGJHz.png") }
+.phb:after{ width:100%; bottom:0px; height:60px; background-image: url("https://i.imgur.com/sKyGJHz.png") }
 
