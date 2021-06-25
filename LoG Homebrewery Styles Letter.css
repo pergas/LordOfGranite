@@ -17,6 +17,7 @@
         font-family: 'Libre Franklin', serif;}
   .phb blockquote p {font-size:12px;}
   .phb blockquote li {font-size:12px;}
+  .phb blockquote em {font-family: 'Libre Franklin', serif;}
   .phb hr+blockquote tr:nth-child(odd) td {background-color: #35ab07;}
   
 /* descriptive notes */  
