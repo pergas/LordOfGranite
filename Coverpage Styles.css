@@ -1,7 +1,6 @@
 /* first page */
 .phb#p1{ 
     text-align:center;
-    background-image:none !important;
 }
 
 .phb#p1:after{ display:none; }  
