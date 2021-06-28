@@ -1,0 +1,23 @@
+/* first page */
+.phb#p1{ 
+    text-align:center;
+    background-image:none !important;
+}
+
+.phb#p1:after{ display:none; }  
+
+/*title page text blocks*/
+.TitlePageName {
+	color: White;
+	font-size: 54px;
+	font-family: Spectral;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.TitlePageDesc {
+	color: White;
+	font-size: 24px;
+	font-family: Spectral;
+	font-weight: bold;
+}
