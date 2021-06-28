@@ -94,18 +94,4 @@
 .phb:nth-child(even) .footnote{left:50px; bottom: 30px}
 .phb:after{ bottom:0px; height:60px; background-image: url("images/assests/page footer A4.png") }
 
-/*title page text blocks*/
-.TitlePageName {
-	color: White;
-	font-size: 54px;
-	font-family: Spectral;
-	font-weight: bold;
-	font-variant: small-caps;
-}
 
-.TitlePageDesc {
-	color: White;
-	font-size: 24px;
-	font-family: Spectral;
-	font-weight: bold;
-}
