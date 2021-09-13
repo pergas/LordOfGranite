@@ -1,0 +1,3 @@
+/* Background and Letter page size */
+  .page { background-image: url("images/assests/Background - base .png")}
+  .page { background-size: cover }
