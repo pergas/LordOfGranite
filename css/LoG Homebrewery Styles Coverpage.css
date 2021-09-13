@@ -1,0 +1,7 @@
+
+/* first page */
+.page#p1{ 
+    text-align:center;
+}
+
+.page#p1:after{ display:none; }  
