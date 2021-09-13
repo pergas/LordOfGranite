@@ -1,0 +1,7 @@
+/* Background and A4 page size */
+  .page { background-image: url("images/assests/Background - base .png")}
+  .page { background-size: cover }
+  .page { 
+	width : 210mm; 
+	height : 296.8mm;
+	}
