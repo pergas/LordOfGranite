@@ -87,3 +87,9 @@
 
 	.page:nth-child(even) .footnote{left:50px; bottom: 30px}
 	.page:after{ bottom:0px; height:60px; background-image: url("images/assests/page footer letter.png") }
+
+/* centered text for feature calcs */
+	.featureCalculation {
+		text-align:center;
+		margin-bottom: 10px;
+		margin-top:10px;}
