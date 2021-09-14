@@ -64,8 +64,10 @@
 	table { font-family: 'Libre Franklin', serif; font-size: 12px}
 	table tr:nth-child(odd) td {color:white; background-color: #663799; font-weight: normal;}
 	.page table em { font-family: 'Libre Franklin'; font-size: 12px}
-	td { font-family: 'Libre Franklin'; font-size: 12px}
-	th { font-family: 'Libre Franklin', serif; font-size: 12px}
+	td { font-family: 'Libre Franklin'; font-size: 12px;
+		vertical-align: middle;}
+	th { font-family: 'Libre Franklin', serif; font-size: 12px;
+		vertical-align: middle;}
   
 /* new footer */
 	.page .pageNumber {
