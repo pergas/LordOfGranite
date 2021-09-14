@@ -1,0 +1,91 @@
+/* Background and Letter page size */
+  .page { background-image: url("images/assests/Background - base .png")}
+  .page { background-size: cover }
+
+/* standard text */
+  .page {font-family: 'Libre Franklin', serif; font-size: 12px}
+  .page h1+p::first-line {font-variant: small-caps; font-size:14px;}
+  .page h1+p::first-letter {font-family:Pirata One; font-size: 150px;}  
+  .page a {color: #7237b3;}
+  .page link { color: #FF0000; } 
+  
+/* Basic Notes */
+  .page blockquote { background-color: #FEFEFE;	
+	border-image: url("images/assests/note border.png") 10;
+  	border-image-outset: 9px 0;
+	box-shadow: 1px 1px 5px #888;
+        font-family: 'Libre Franklin', serif;}
+  .page blockquote p {font-size:12px;}
+  .page blockquote li {font-size:12px;}
+  .page blockquote em {font-family: 'Libre Franklin', serif;}
+  .page hr+blockquote tr:nth-child(odd) td {background-color: #35ab07;}
+  
+/* descriptive notes */  
+  .page .descriptive {
+	background-color: #f3dcfa;
+	border-image: url("images/assests/Descriptive note sides.png") 12 round;
+	border-image-outset: 4px;
+	font-family: 'Libre Franklin', serif; font-size: 12px;
+	}
+  .page .descriptive em {font-family: 'Libre Franklin', serif; font-size: 12px;}
+  .page .descriptive strong {font-family: 'Libre Franklin', serif; font-size: 12px;} 
+    
+/* statblock changes */
+  .page hr+blockquote {background-color: #FAFBFC; 
+        box-shadow: 0px 0px 1px 1px #9200bd24;
+	border-image: url("images/assests/Statblock border.png") 10}
+  .page hr+blockquote tr:nth-child(odd) td {color:#FFFFEE; background-color: #7237B3;}
+  .page hr+blockquote hr {background-image: url("images/assests/Stat Block Divider2.png")}
+  .page hr+blockquote hr+ul { color: #7237b3;
+	font-family: 'Libre Franklin', serif; 
+    	font-size:12px}
+  .page hr+blockquote hr+ul strong {color: #7237b3;
+  	font-family: 'Libre Franklin', serif; 
+  	font-size: 12px}
+  .page hr+blockquote em{ font-family: 'Libre Franklin', serif; font-size: 12px}
+
+/* fancy tables (e.g. class tables/item tables) */
+  .page .classTable {
+  	border-image-source: url("images/assests/Creature statblock table 2.png");
+  	background-color: #FBE0FF;
+  }
+ 
+/* Headings */
+  .page h1 {color: #6e479c; font-family: 'Lustria', serif; font-size: 32px; font-variant: small-caps;}
+  .page h2 {color: #6e479c; font-family: 'Lustria', serif; font-size: 24px; font-variant: small-caps;}
+  .page h3 {color: #6e479c; border-bottom: 2px solid #7237B3; font-family: 'Lustria', serif; font-size: 18px; font-variant: small-caps; }
+  .page h4 {color: #6e479c; font-family: 'Lustria', serif; font-size: 16px; font-variant: small-caps; }
+  .page h5 {color: #6e479c; font-family: 'Lustria', san-serif; font-size: 14px;}
+  
+/* Tables */
+  table { font-family: 'Libre Franklin', serif; font-size: 12px}
+  table tr:nth-child(odd) td {color:white; background-color: #663799; font-weight: normal;}
+  .page table em { font-family: 'Libre Franklin'; font-size: 12px}
+  td { font-family: 'Libre Franklin'; font-size: 12px}
+  th { font-family: 'Libre Franklin', serif; font-size: 12px}
+  
+/* Footer 
+  .phb .pageNumber {color: rgba(0, 0, 0, 1)}
+  .phb .footnote {color: rgba(0, 0, 0, 1)}
+  .phb:after{ bottom:0px; height:60px; background-image: url("https://i.imgur.com/qpEiR0A.png") } */
+
+/* new footer */
+.page .pageNumber {
+	font-family: Lustria;
+	font-size: 15px;
+	bottom: 7.5px;
+	color: #6e479c;
+	width: 44px;
+}
+
+.page .footnote{
+  	font-family: Lustria;
+  	font-size:14px;
+  	color:#6e479c;
+  	width: 300px;
+  	right: 50px;
+  	bottom: 30px;
+}
+
+.page:nth-child(even) .footnote{left:50px; bottom: 30px}
+.page:after{ bottom:0px; height:60px; background-image: url("images/assests/page footer letter.png") }
