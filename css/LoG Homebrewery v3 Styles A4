@@ -1,5 +1,5 @@
 /* Background and A4 page size */
-  .page { background-image: url("images/assests/Background - base .png")}
+  .page { background-image: url("https://pergas.github.io/LordOfGranite/images/assests/Background - base .png")}
   .page { background-size: cover }
   .page { 
 	width : 210mm; 
