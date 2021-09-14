@@ -50,7 +50,7 @@
   		background-color: #FBE0FF;}
   	.page .classTable.frame { 
 		border-image-source: url("images/assests/Creature statblock table 2.png");
-		background-color: unset;}
+		background-color: #FBE0FF;}
  
 /* Headings */
 	.page h1 {color: #6e479c; font-family: 'Lustria', serif; font-size: 32px; font-variant: small-caps;}
