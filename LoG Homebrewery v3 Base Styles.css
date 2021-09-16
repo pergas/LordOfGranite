@@ -25,7 +25,7 @@
 
 	.page .note {background-color: #FEFEFE;	
 		border-image: url("images/assests/note border.png") 12 stretch;
-		border-image-outset: 11px 0;
+		border-image-outset: 10px 0;
 		border-width: 11px;}
   
 /* descriptive notes */  
