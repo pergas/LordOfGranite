@@ -11,7 +11,7 @@
   	.page link { color: #FF0000; } 
 	
   
-/* Basic Notes */
+/* Basic Notes 
   	.page blockquote { 
 		background-color: #FEFEFE;	
 		border-image: url("images/assests/note border.png") 10;
@@ -21,7 +21,13 @@
   	.page blockquote p {font-size:12px;}
 	.page blockquote li {font-size:12px;}
   	.page blockquote em {font-family: 'Libre Franklin', serif;}
-  	.page hr+blockquote tr:nth-child(odd) td {background-color: #35ab07;}
+  	.page hr+blockquote tr:nth-child(odd) td {background-color: #35ab07;} */
+
+	.page.note { background-color: #FEFEFE;	
+		border-image: url("images/assests/note border.png") 10;
+  		border-image-outset: 9px 0;
+		box-shadow: 1px 1px 5px #888;
+		font-family: 'Libre Franklin', serif;}
   
 /* descriptive notes */  
 	.page .descriptive {
