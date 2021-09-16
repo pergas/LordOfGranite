@@ -73,7 +73,7 @@
 	.page .pageNumber {
 		font-family: Lustria;
 		font-size: 15px;
-		bottom: 7.5px;
+		bottom: 12px;
 		color: #6e479c;
 		width: 44px;}
 
@@ -82,10 +82,10 @@
 		font-size:14px;
 		color:#6e479c;
 		width: 300px;
-		right: 50px;
-		bottom: 30px;}
+		right: 55px;
+		bottom: 40px;}
 
-	.page:nth-child(even) .footnote{left:50px; bottom: 30px}
+	.page:nth-child(even) .footnote{left:55px;}
 	.page:after{ bottom:0px; height:60px; background-image: url("images/assests/page footer letter.png") }
 
 /* centered text for feature calcs */
