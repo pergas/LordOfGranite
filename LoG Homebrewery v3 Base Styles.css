@@ -32,7 +32,7 @@
 	.page .descriptive em {font-family: 'Libre Franklin', serif; font-size: 12px;}
 	.page .descriptive strong {font-family: 'Libre Franklin', serif; font-size: 12px;} 
 
-/* statblock changes */
+/* statblock changes 
   	.page hr+blockquote {background-color: #FAFBFC; 
 	        box-shadow: 0px 0px 1px 1px #9200bd24;
 		border-image: url("images/assests/Statblock border.png") 10}
@@ -44,9 +44,19 @@
   	.page hr+blockquote hr+ul strong {color: #7237b3;
   		font-family: 'Libre Franklin', serif; 
   		font-size: 12px}
-  	.page hr+blockquote em{ font-family: 'Libre Franklin', serif; font-size: 12px}
+  	.page hr+blockquote em{ font-family: 'Libre Franklin', serif; font-size: 12px}*/
 
-/* fancy tables (e.g. class tables/item tables) */
+	.page .monster {font-family: "Libre Franklin"; font-size: 12px;}
+	.page .monster h2 {font-size: 12px;line-height: 1em;}
+	.page .monster hr {background-image: url("images/assests/Stat Block Divider2.png")}
+	.page .monster dl {color: #6e479c;}
+	.page .monster.frame {
+	    background-color: #FAFBFC;
+	    background-image: unset;
+	    border-image: url("images/assests/Stat Block Divider2.png") 8;}
+
+
+/* class tables) */
  	.page .classTable {
   		background-color: #FBE0FF;}
   	.page .classTable.frame { 
@@ -68,7 +78,8 @@
 		vertical-align: middle;}
 	th { font-family: 'Libre Franklin', serif; font-size: 12px;
 		vertical-align: middle;}
-  
+
+
 /* new footer */
 	.page .pageNumber {
 		font-family: Lustria;
@@ -87,6 +98,25 @@
 
 	.page:nth-child(even) .footnote{left:55px;}
 	.page:after{ bottom:0px; height:60px; background-image: url("images/assests/page footer letter.png") }
+
+/* watermark
+
+.page .watermark{
+    display: grid !important;
+    place-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 120px;
+    text-transform: uppercase;
+    color: black;
+    mix-blend-mode: overlay;
+    opacity: 30%;
+    transform: rotate(-45deg);
+}*/
 
 /* centered text for feature calcs */
 	.featureCalculation {
