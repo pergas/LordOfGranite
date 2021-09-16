@@ -24,7 +24,9 @@
   	.page hr+blockquote tr:nth-child(odd) td {background-color: #35ab07;} */
 
 	.page .note {background-color: #FEFEFE;	
-		border-image: url("images/assests/note border.png") 12 stretch;}
+		border-image: url("images/assests/note border.png") 12 stretch;
+		border-image-outset: 11px 0;
+		border-width: 11px;}
   
 /* descriptive notes */  
 	.page .descriptive {
