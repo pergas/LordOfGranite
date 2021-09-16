@@ -45,6 +45,8 @@
   	.page .classTable.frame { 
 		border-image-source: url("images/assests/Creature statblock table 2.png");
 		background-color: #FBE0FF;}
+	.page .classTable.decoration::before {background-image: unset;} /*url("");}*/
+
  
 /* Headings */
 	.page h1 {color: #6e479c; font-family: 'Lustria', serif; font-size: 32px; font-variant: small-caps;}
