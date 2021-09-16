@@ -23,10 +23,8 @@
   	.page blockquote em {font-family: 'Libre Franklin', serif;}
   	.page hr+blockquote tr:nth-child(odd) td {background-color: #35ab07;} */
 
-	.page .note { background-color: #FEFEFE;	
-		border-image: url("images/assests/note%20border.png") 12 stretch;
-		box-shadow: 1px 1px 5px #888;
-		font-family: 'Libre Franklin', serif;}
+	.page .note {background-color: #FEFEFE;	
+		border-image: url("images/assests/note border.png") 12 stretch;}
   
 /* descriptive notes */  
 	.page .descriptive {
