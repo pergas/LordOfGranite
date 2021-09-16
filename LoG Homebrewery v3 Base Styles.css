@@ -41,7 +41,7 @@
 
 /* class tables) */
  	.page .classTable {
-  		background-color: #FBE0FF;}
+		background-color: unset;} /*#FBE0FF;}*/
   	.page .classTable.frame { 
 		border-image-source: url("images/assests/Creature statblock table 2.png");
 		background-color: #FBE0FF;}
