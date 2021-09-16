@@ -11,18 +11,7 @@
   	.page link { color: #FF0000; } 
 	
   
-/* Basic Notes 
-  	.page blockquote { 
-		background-color: #FEFEFE;	
-		border-image: url("images/assests/note border.png") 10;
-  		border-image-outset: 9px 0;
-		box-shadow: 1px 1px 5px #888;
-        	font-family: 'Libre Franklin', serif;}
-  	.page blockquote p {font-size:12px;}
-	.page blockquote li {font-size:12px;}
-  	.page blockquote em {font-family: 'Libre Franklin', serif;}
-  	.page hr+blockquote tr:nth-child(odd) td {background-color: #35ab07;} */
-
+/* Basic Notes */
 	.page .note {background-color: #FEFEFE;	
 		border-image: url("images/assests/note border.png") 12 stretch;
 		border-image-outset: 10px 0;
@@ -37,19 +26,7 @@
 	.page .descriptive em {font-family: 'Libre Franklin', serif; font-size: 12px;}
 	.page .descriptive strong {font-family: 'Libre Franklin', serif; font-size: 12px;} 
 
-/* statblock changes 
-  	.page hr+blockquote {background-color: #FAFBFC; 
-	        box-shadow: 0px 0px 1px 1px #9200bd24;
-		border-image: url("images/assests/Statblock border.png") 10}
-  	.page hr+blockquote tr:nth-child(odd) td {color:#FFFFEE; background-color: #7237B3;}
-  	.page hr+blockquote hr {background-image: url("images/assests/Stat Block Divider2.png")}
-  	.page hr+blockquote hr+ul { color: #7237b3;
-		font-family: 'Libre Franklin', serif; 
-    		font-size:12px}
-  	.page hr+blockquote hr+ul strong {color: #7237b3;
-  		font-family: 'Libre Franklin', serif; 
-  		font-size: 12px}
-  	.page hr+blockquote em{ font-family: 'Libre Franklin', serif; font-size: 12px}*/
+/* statblock changes */
 
 	.page .monster {font-family: "Libre Franklin"; font-size: 12px;}
 	.page .monster h2 {font-size: 23px;}
@@ -85,8 +62,7 @@
 	th { font-family: 'Libre Franklin', serif; font-size: 12px;
 		vertical-align: middle;}
 
-
-/* new footer */
+/* footers */
 	.page .pageNumber {
 		font-family: Lustria;
 		font-size: 15px;
@@ -104,25 +80,6 @@
 
 	.page:nth-child(even) .footnote{left:55px;}
 	.page:after{ bottom:0px; height:60px; background-image: url("images/assests/page footer letter.png") }
-
-/* watermark
-
-.page .watermark{
-    display: grid !important;
-    place-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    font-size: 120px;
-    text-transform: uppercase;
-    color: black;
-    mix-blend-mode: overlay;
-    opacity: 30%;
-    transform: rotate(-45deg);
-}*/
 
 /* centered text for feature calcs */
 	.featureCalculation {
