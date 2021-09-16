@@ -47,13 +47,14 @@
   	.page hr+blockquote em{ font-family: 'Libre Franklin', serif; font-size: 12px}*/
 
 	.page .monster {font-family: "Libre Franklin"; font-size: 12px;}
-	.page .monster h2 {font-size: 12px;line-height: 1em;}
+	.page .monster h2 {font-size: 12px;}
+	.page .monster h3 {font-family: "Libre Franklin";}
 	.page .monster hr {background-image: url("images/assests/Stat Block Divider2.png")}
 	.page .monster dl {color: #6e479c;}
 	.page .monster.frame {
 	    background-color: #FAFBFC;
 	    background-image: unset;
-	    border-image: url("images/assests/Stat Block Divider2.png") 8;}
+	    border-image: url("images/assests/Statblock border.png") 8;}
 
 
 /* class tables) */
