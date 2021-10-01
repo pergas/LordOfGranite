@@ -30,13 +30,17 @@
 
 	.page .monster {font-family: "Libre Franklin"; font-size: 12px;}
 	.page .monster h2 {font-size: 23px;}
-	.page .monster h3 {font-family: "Libre Franklin";}
+	.page .monster h3 {
+		border-bottom: 2px solid #7237B3;
+		font-family: "Libre Franklin";}
 	.page .monster hr {background-image: url("images/assests/Stat Block Divider2.png")}
+	.page .monster hr~:is(dl,p) {color: #6e479c }
 	.page .monster dl {color: #6e479c;}
 	.page .monster.frame {
 	    background-color: #FAFBFC;
 	    background-image: unset;
 	    border-image: url("images/assests/Statblock border.png") 8;}
+	.page .monster hr+table:first-of-type {color: #6e479c;}
 
 
 /* class tables) */
