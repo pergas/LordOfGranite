@@ -1,6 +1,5 @@
 /*fonts*/
-/*@import url("https://fonts.googleapis.com/css?family=Libre+Franklin|Lustria|Pirata+One");*/
-/*@import url("https://pergas.github.io/LordOfGranite/css/font.css");*/
+/*fonts are defined in the /css/fonts.css file, and hosted in the /css/fonts folder */
 
 /* standard text */
   	.page {font-family: 'Libre Franklin', serif; font-size: 12px}
