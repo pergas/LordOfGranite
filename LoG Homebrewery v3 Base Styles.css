@@ -9,7 +9,8 @@
 		background-image: linear-gradient(-50deg, #6e479c, #440a89, #6e479c);}   	
 	.page a {color: #7237b3;}
   	.page link { color: #FF0000; } 
-	
+
+	.page ol{font-family: 'Libre Franklin', serif; font-size: 12px}
   
 /* Basic Notes */
 	.page .note {background-color: #FEFEFE;	
